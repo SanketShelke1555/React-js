@@ -1,12 +1,12 @@
+import Card from "./components/Card"
 
-import Count from "./components/Count"
 
 
-function App(){
-  return(
+function App() {
+  return (
     <>
- <Count/>
- </>
+<Card/>
+    </>
   )
 }
 
