@@ -18,6 +18,10 @@ function Card() {
 
     const [price, setPrice] = useState(399);
 
+    function cart(){
+        alert( count + " Item Added To Cart");
+    }
+
 
 
 
@@ -39,6 +43,10 @@ function Card() {
 
                 <div className='price'>
                     <h1>Total Price Rs:{count * price}</h1>
+                </div>
+
+                <div className='add_cart'>
+                    <button onClick={cart}>ADD TO CART</button>
                 </div>
 
             </div>
