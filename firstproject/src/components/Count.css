@@ -1,0 +1,21 @@
+.count {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+
+}
+
+button {
+    padding: 10px 30px;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(226, 153, 43);
+
+}
