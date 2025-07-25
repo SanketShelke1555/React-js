@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import NavBar from './NavBar';
+
+
 
 function Home() {
 
@@ -20,7 +21,7 @@ function f1(){
         <button onClick={f1}>Change</button>
     </div>
 
-    <NavBar/>
+  
     </>
   )
 }

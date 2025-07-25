@@ -2,13 +2,21 @@
     display: flex;
     justify-content: space-evenly;
     background-image: radial-gradient(circle 232px at 10% 20%, rgba(251, 238, 115, 0.74) 0%, rgba(241, 195, 87, 0.74) 90%);
-
+    
 }
 
-p{
+p {
     font-size: x-large;
+    color: black;
 }
 
-body{
+
+body {
     margin: 0;
+}
+
+.Nav a {
+    text-decoration: none;
+    
+    
 }

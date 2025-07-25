@@ -1,13 +1,16 @@
 import React from 'react'
 import './NavBar.css'
+import { Link } from 'react-router-dom'
 
 function NavBar(props) {
     return (
         <>
             <div className='Nav'>
-                <p>{props.n1}</p>
-                <p>{props.n2}</p>
-                <p>{props.n3}</p>
+
+                <Link to="/"><p className='menu'>Home</p></Link>
+                <Link to="/card"><p className='menu'>Card</p></Link>
+                <Link to="/count"><p className='menu'>Count</p></Link>
+
             </div>
 
         </>
