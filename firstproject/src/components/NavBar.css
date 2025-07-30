@@ -16,7 +16,12 @@ body {
 }
 
 .Nav a {
-    text-decoration: none;
+    text-decoration: none;    
+}
+
+button{
+    display: flex;
+    align-items: center;
     
-    
+
 }

@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: space-evenly;
+ 
+
+}
+.logo {
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+.menu-btn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    position: fixed;
+    top: 60px;
+    /* below navbar */
+    left: -300px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    transition: left 0.5s ease;
+    z-index: 999;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+

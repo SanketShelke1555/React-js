@@ -1,30 +1,25 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import NavBar from "./components/NavBar"
-import Home from "./components/Home"
-import Card from "./components/Card"
-import Count from "./components/Count"
-
-
-
-
-
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Boss from './components/Boss'
+import Manager from './components/Manager'
+import Emp from './components/Emp'
+import LoginForm from './components/LoginForm'
 
 function App() {
   return (
     <>
-      <BrowserRouter>
 
-        <NavBar/>
+      <BrowserRouter>
 
         <Routes>
 
-          <Route path="/" element={<Home/>} />
-          <Route path="/card" element={<Card/>} />
-          <Route path="/count" element={<Count/>} />
+          <Route path='/' element={<LoginForm />} />
+          <Route path='/boss' element={<Boss />} />
+          <Route path='/manager' element={<Manager />} />
+          <Route path='/emp' element={<Emp />} />
 
 
         </Routes>
-
 
       </BrowserRouter>
     </>
