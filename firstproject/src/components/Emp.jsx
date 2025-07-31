@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
 import Toast from './Toast';
 import './Emp.css'
+import TotalAsset from './TotalAsset';
 
 function Emp() {
     const navigate = useNavigate();
@@ -19,7 +20,7 @@ function Emp() {
 
         const timer = setTimeout(() => {
             setShowToast(false);
-        }, 3000);
+        }, 5000);
 
         return () => clearTimeout(timer);
     }, []);
@@ -41,6 +42,8 @@ function Emp() {
                     onClose={() => setShowToast(false)}
                 />
             )}
+
+            <TotalAsset/>
         </>
     )
 }

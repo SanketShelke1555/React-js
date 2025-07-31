@@ -19,7 +19,7 @@ function Boss() {
 
         const timer = setTimeout(() => {
             setShowToast(false);
-        }, 3000);
+        }, 5000);
 
         return () => clearTimeout(timer);
     }, []);

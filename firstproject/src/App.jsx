@@ -5,11 +5,13 @@ import Manager from './components/Manager'
 import Emp from './components/Emp'
 import LoginForm from './components/LoginForm'
 
+
+
+
 function App() {
   return (
     <>
-
-      <BrowserRouter>
+  <BrowserRouter>
 
         <Routes>
 
@@ -22,8 +24,25 @@ function App() {
         </Routes>
 
       </BrowserRouter>
+      
     </>
   )
 }
 
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
